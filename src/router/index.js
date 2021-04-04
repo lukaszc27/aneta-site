@@ -26,6 +26,11 @@ const routes = [
     path: '/classes/3',
     name: 'Class3',
     component: () => import('../views/classes/3.vue')
+  },
+  {
+    path: '/forParents',
+    name: 'ForParents',
+    component: () => import('../components/ForParents.vue')
   }
 ]
 

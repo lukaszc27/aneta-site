@@ -38,6 +38,10 @@
               <li><router-link :to="{ name: 'Class3' }" class="dropdown-item">Klasa III</router-link></li>
             </ul>
           </li>
+
+          <li class="nav-item">
+            <router-link :to="{name: 'ForParents'}" class="nav-link">Dla rodziców</router-link>
+          </li>
         </ul>
 
         <ul class="navbar-nav d-none d-sm-none d-md-flex" style="float:right;">
