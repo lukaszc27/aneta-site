@@ -30,7 +30,7 @@ const routes = [
   {
     path: '/forParents',
     name: 'ForParents',
-    component: () => import('../components/ForParents.vue')
+    component: () => import('../views/ForParents.vue')
   }
 ]
 
